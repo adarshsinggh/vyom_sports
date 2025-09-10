@@ -24,12 +24,9 @@ const Contact: React.FC = () => {
     <section id="contact" className="py-20 bg-celestial-haze">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bebas text-vyom-midnight mb-6">
-            LOREM IPSUM CONTACT
+          <h2 className="text-4xl md:text-5xl font-bebas text-vyom-midnight mb-6">
+            GET IN TOUCH
           </h2>
-          <p className="text-xl text-eclipse-grey max-w-3xl mx-auto font-inter">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 max-w-6xl mx-auto">

@@ -8,47 +8,26 @@ const About: React.FC = () => {
           
           {/* Content */}
           <div className="lg:w-1/2">
-            <h2 className="text-5xl md:text-6xl font-bebas text-vyom-midnight mb-8">
-              LOREM IPSUM DOLOR
+            <h2 className="text-4xl md:text-5xl font-bebas text-vyom-midnight mb-8">
+              ABOUT US
             </h2>
 
             <div className="mb-8">
-              <p className="text-xl text-eclipse-grey leading-relaxed font-inter mb-6">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+              <p className="text-lg text-eclipse-grey leading-relaxed font-inter mb-6">
+                Vyom sits at the intersection of luxury, sport and global access. We exist not to explain the game, but to awaken a new way of experiencing it. For those who already demand more, Vyom is the invitation to step inside.
+              </p>
+              <p className="text-lg text-eclipse-grey leading-relaxed font-inter mb-6">
+                Curators of the unrepeatable, front-row adrenaline, private moments with legends, global arenas that feel personal transforming sport from spectacle to possession.
+              </p>
+              <p className="text-lg text-eclipse-grey leading-relaxed font-inter">
+                What most only witness, our clients live. What most call a dream, we call a standard.
               </p>
             </div>
 
-            <div className="space-y-6 mb-8">
-              <div className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-aurora-teal rounded-full mt-3 flex-shrink-0"></div>
-                <div>
-                  <h4 className="text-vyom-midnight font-inter font-semibold mb-2">Lorem Ipsum</h4>
-                  <p className="text-eclipse-grey font-inter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-aurora-teal rounded-full mt-3 flex-shrink-0"></div>
-                <div>
-                  <h4 className="text-vyom-midnight font-inter font-semibold mb-2">Dolor Sit Amet</h4>
-                  <p className="text-eclipse-grey font-inter">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-4">
-                <div className="w-2 h-2 bg-aurora-teal rounded-full mt-3 flex-shrink-0"></div>
-                <div>
-                  <h4 className="text-vyom-midnight font-inter font-semibold mb-2">Consectetur</h4>
-                  <p className="text-eclipse-grey font-inter">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center space-x-4">
-              <div className="text-2xl font-inter text-aurora-teal">
-                Lorem Ipsum
-              </div>
-              <div className="h-px bg-aurora-teal flex-1"></div>
+            <div className="bg-aurora-teal/5 rounded-2xl p-6 border-l-4 border-aurora-teal">
+              <p className="text-eclipse-grey font-inter italic">
+                "Vyom is for the few who understand that sport, at its highest level, is not entertainment. It is culture, power and legacy. And those who step into Vyom are not just watching history, they are living it."
+              </p>
             </div>
           </div>
 
