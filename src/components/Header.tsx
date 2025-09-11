@@ -26,9 +26,9 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img 
-              src="/Screenshot 2025-09-05 at 12.02.06.png" 
+              src="/logo.png" 
               alt="Vyom Sports Logo" 
-              className="w-90 h-12 object-contain"
+              className="w-50 h-20 object-fit"
             />
             <span className="text-2xl font-bebas text-vyom-midnight">
               {/* VYOM SPORTS */}

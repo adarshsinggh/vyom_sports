@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-3 mb-6">
               <img 
                 src="/white-logo.png" 
-                alt="Vyom Sports Logo" 
+                alt="Vyom Sports Logo"
                 className="w-21 h-20 object-fit"
               />
               {/* <span className="text-2xl font-bebas text-white">
