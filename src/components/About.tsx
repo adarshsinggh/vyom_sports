@@ -2,17 +2,17 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-celestial-haze">
+    <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
           
-          {/* Content */}
-          <div className="lg:w-1/2">
+          {/* Content Section */}
+          <div>
             <h2 className="text-4xl md:text-5xl font-bebas text-vyom-midnight mb-8">
               ABOUT US
             </h2>
 
-            <div className="mb-8">
+            <div className="mb-12">
               <p className="text-lg text-eclipse-grey leading-relaxed font-inter mb-6">
                 Vyom sits at the intersection of luxury, sport and global access. We exist not to explain the game, but to awaken a new way of experiencing it. For those who already demand more, Vyom is the invitation to step inside.
               </p>
@@ -24,27 +24,22 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-aurora-teal/5 rounded-2xl p-6 border-l-4 border-aurora-teal">
-              <p className="text-eclipse-grey font-inter italic">
+            <div className="bg-aurora-teal/5 rounded-2xl p-8 border-l-4 border-aurora-teal">
+              <p className="text-eclipse-grey font-inter italic text-lg leading-relaxed">
                 "Vyom is for the few who understand that sport, at its highest level, is not entertainment. It is culture, power and legacy. And those who step into Vyom are not just watching history, they are living it."
               </p>
             </div>
           </div>
 
-          {/* CEO Image */}
-          <div className="lg:w-1/2">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-md mx-auto">
+          {/* Image Section */}
+          <div className="relative">
+            <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop"
-                alt="CEO Portrait"
-                className="w-full h-[500px] object-cover"
+                src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                alt="Professional Business Person"
+                className="w-full h-full object-cover"
               />
-              
-              <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bebas text-vyom-midnight mb-1">LOREM IPSUM</h3>
-                <p className="text-aurora-teal font-inter font-medium">Dolor Sit Amet</p>
-                <p className="text-sm text-eclipse-grey font-inter mt-2">Lorem ipsum dolor sit amet consectetur</p>
-              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-vyom-midnight/60 via-transparent to-transparent"></div>
             </div>
           </div>
         </div>

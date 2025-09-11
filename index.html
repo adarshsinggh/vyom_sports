@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/1-05.png" />
+    <!-- Default favicon (light as fallback) -->
+    <link rel="icon" type="image/png" href="/public/favicon.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VYOM SPORTS</title>
     <meta
@@ -29,6 +31,35 @@
         text-transform: uppercase;
       }
     </style>
+
+    <!-- Theme-based favicon switcher -->
+    <script>
+      function setFaviconBasedOnTheme() {
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        const faviconHref = prefersDark
+          ? "/public/1-05.png"
+          : "/public/favicon.png";
+
+        let favicon = document.querySelector("link[rel~='icon']");
+        if (!favicon) {
+          favicon = document.createElement("link");
+          favicon.rel = "icon";
+          document.head.appendChild(favicon);
+        }
+
+        favicon.href = faviconHref;
+      }
+
+      // Set on page load
+      setFaviconBasedOnTheme();
+
+      // Optional: update if user changes system theme
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", setFaviconBasedOnTheme);
+    </script>
   </head>
   <body>
     <div id="root"></div>

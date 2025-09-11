@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
 
           {/* Contact Form */}
           <div className="bg-white rounded-2xl p-8 shadow-xl border border-aurora-teal">
-            <h3 className="text-2xl font-bebas text-vyom-midnight mb-6">SEND MESSAGE</h3>
+            <h3 className="text-3xl font-bebas text-vyom-midnight mb-8">SEND MESSAGE</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
