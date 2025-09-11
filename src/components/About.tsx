@@ -33,11 +33,11 @@ const About: React.FC = () => {
 
           {/* CEO Image */}
           <div className="lg:w-1/2">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-md mx-auto">
               <img
                 src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop"
                 alt="CEO Portrait"
-                className="w-full h-96 object-cover"
+                className="w-full h-[500px] object-cover"
               />
               
               <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-6 rounded-xl shadow-lg">
